@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+    *{
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Cairo';
+    }
+     .img{
+      animation: kia 2s ease-in 0s infinite normal none;   
+      position: absolute;
+      width: 550px;
+     margin-left: 300px;
+     top: 500px;
+     border: none;
+    }
+    @keyframes kia {
+      50%{margin-top: 50px;}   
+       100%{margin-top:px;}
+    }
+    .container{
+      margin-left: 30px;
+      font-size: 25px;
+    }
+    span{
+      color: white;
+      background: blueviolet;
+      height: 10px;
+      font-weight: bold;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      height: 80px;
+      justify-content: space-around;
+    }
+    a{
+      color: black;
+    }
+    a:hover{
+      color: blueviolet;
+    }
+        @media (max-width: 900px) {
+          header {
+            padding: 0 20px;
+            height: 60px;
+            font-size: 10px;
+          }
+        }
+        .hl{
+          border: 5px blueviolet solid;
+          background: blueviolet;
+          width: 500px;
+          height: 7px;
+          border-radius: 30px;
+        }
+        .cs{
+             border: 5px blueviolet solid;
+             background: blueviolet;
+             width: 300px;
+             height: 7px;
+             border-radius: 30px;
+        }
+        .js{
+     border: 5px blueviolet solid;
+     background: blueviolet;
+     width: 200px;
+     height: 7px;
+     border-radius: 30px;
+        }
+        #skills{
+          margin-left: 200px;
+        }
+        img{
+          width: 500px;
+          border-radius: 30px;
+          border: 2.5px blueviolet solid;
+          margin-left: 200px;
+          transition:1s;
+        }
+        .t{
+          height: 500px;
+        }
+        img:hover{
+          transform: scale(1.1);
+        }
+   footer {
+     justify-content: space-between;
+     font-size: 20px;
+     background: black;
+     height: 80px;
+     }
+  </style>
+</head>
+<body>
+    <header>
+      <h2><span>P</span>ORTFOLIO</h2>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+    </header>
+    <hr>
+    <br>
+    <div class="container">
+   <section id="about">
+    <h1 style="font-size: 50px;margin-left: 340px; color: blueviolet;  border-bottom: 10px blueviolet solid; width: 270px;">About Me</h1>
+    <h1>HELLO I'M</h1>
+    <h1 style="color: blueviolet; font-size: 40px;">Mohamed Waleed</h1>
+    <h1 style="margin-left: 5px;">Web Developer</h1>
+    <img src="20230222_143548.jpg" class="img">
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section id="projects">
+        <div class="images">
+        <h1 style="font-size: 60px;margin-left: 270px; color: blueviolet;  border-bottom: 10px blueviolet solid; width: 300px;">Projects</h1>
+        <br>
+        <br>
+        <div class="p">
+        <img src="20230206_233904.jpg" alt="p1">
+        <br>
+        <br>
+        <img src="t.jpeg" alt="p2" class="t">
+        <br>
+        <br>
+        <img src="20230222_144514.jpg" alt="p3">
+        <br>
+        <br>
+        <img src="20230222_144633.jpg" alt="p4">
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+      </section>
+     <h1 style="font-size: 50px;margin-left: 340px; color: blueviolet;  border-bottom: 10px blueviolet solid; width: 170px;">Skills</h1>
+      <section id="skills">
+        Html<div class="hl"></div>
+        Css<div class="cs"></div>
+        Javascript<div class="js"></div>
+      </section>
+      <br>
+      <br>
+      </div>
+          <footer>
+            <h4 style="color: white; margin-left: 120px;">©Copyright by Mohamed Waleed.</h4>
+          </footer>
+</body>
+</html>
